@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/langchain4j-01-basic-examples/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/langchain4j-01-basic-examples/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/langchain4j-02-ai-service-examples/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/langchain4j-02-ai-service-examples/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/langchain4j-03-embedding-store-chroma/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/langchain4j-03-embedding-store-chroma/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/langchain4j-03-embedding-store-memory/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/langchain4j-03-embedding-store-memory/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/langchain4j-03-embedding-store-milvus/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/langchain4j-03-embedding-store-milvus/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/langchain4j-03-embedding-store-qdrant/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/langchain4j-03-embedding-store-qdrant/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/langchain4j-04-mcp-examples/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/langchain4j-04-mcp-examples/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/langchain4j-05-rag-examples/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/langchain4j-05-rag-examples/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/langchain4j-06-agentic-examples/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/langchain4j-06-agentic-examples/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/langchain4j-07-ollama-examples/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/langchain4j-07-ollama-examples/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/langchain4j-09-zhipu-examples/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/langchain4j-spring-boot-01-openai-helloWorld/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/langchain4j-spring-boot-02-aiService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/langchain4j-spring-boot-02-dashscope-examples/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/langchain4j-spring-boot-02-deepSeek-examples/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/langchain4j-spring-boot-02-multi-model-examples/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/langchain4j-spring-boot-03-listener/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/langchain4j-spring-boot-03-memory/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/langchain4j-spring-boot-03-memoryEachUser/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/langchain4j-spring-boot-03-streaming/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/langchain4j-spring-boot-04-inMemoryStore/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/langchain4j-spring-boot-04-inMysqlStore/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/langchain4j-spring-boot-05-prompt/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/langchain4j-spring-boot-05-structured-output/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/langchain4j-spring-boot-06-structured-output/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/langchain4j-spring-boot-06-tools/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/langchain4j-spring-boot-07-lostFoundAssistant/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/langchain4j-spring-boot-08-rag-AIBot/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/langchain4j-spring-boot-08-rag/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/langchain4j-spring-boot-09-lostFoundAssistant/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/langchain4j-spring-boot-10-mcp/src/main/java" charset="UTF-8" />
+  </component>
+</project>

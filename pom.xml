@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.langchain4j</groupId>
+    <artifactId>langchain4j-examples</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>langchain4j-01-basic-examples</module> <!--基础功能示例-->
+        <module>langchain4j-02-ai-service-examples</module> <!--AI 服务 相关示例-->
+        <module>langchain4j-03-embedding-store-memory</module> <!--内存向量存储 学习使用-->
+        <module>langchain4j-03-embedding-store-chroma</module> <!--chroma 向量存储 学习使用-->
+        <module>langchain4j-03-embedding-store-qdrant</module> <!--qdrant向量存储 首选 Java 官方支持完善、部署简单、性能足够大多数业务-->
+        <module>langchain4j-03-embedding-store-milvus</module> <!--milvus向量存储 只有数据量达到亿级且团队有运维能力时才考虑-->
+        <module>langchain4j-04-mcp-examples</module> <!--mcp示例-->
+        <module>langchain4j-07-ollama-examples</module> <!--ollama示例-->
+        <module>langchain4j-05-rag-examples</module> <!--rag示例-->
+        <module>langchain4j-06-agentic-examples</module> <!--agentic示例-->
+
+        <module>langchain4j-spring-boot-01-openai-helloWorld</module> <!--集成Spring Boot项目-->
+        <module>langchain4j-spring-boot-02-aiService</module> <!--声明明式 AI服务-->
+        <module>langchain4j-spring-boot-02-deepSeek-examples</module><!--深度搜索示例-->
+        <module>langchain4j-spring-boot-02-dashscope-examples</module><!--阿里百炼-->
+        <module>langchain4j-spring-boot-02-multi-model-examples</module><!--多模型集成-->
+        <module>langchain4j-spring-boot-03-memory</module><!--内存对话记忆-->
+        <module>langchain4j-spring-boot-03-memoryEachUser</module><!--用户隔离对话记忆-->
+
+        <module>langchain4j-spring-boot-03-streaming</module> <!--流式输出-->
+        <module>langchain4j-spring-boot-03-listener</module> <!--AI服务监听-->
+        <module>langchain4j-spring-boot-06-tools</module> <!--AI工具组件装配-->
+
+        <module>langchain4j-spring-boot-04-inMemoryStore</module><!--对话记忆-内存存储-->
+        <module>langchain4j-spring-boot-04-inMysqlStore</module><!--mysql持久化存储-->
+        <module>langchain4j-spring-boot-05-prompt</module><!--系统提示词应用-->
+        <module>langchain4j-spring-boot-05-structured-output</module><!--结构化输出-->
+
+        <module>langchain4j-spring-boot-07-lostFoundAssistant</module> <!--失物招领助手实战 -->
+        <module>langchain4j-spring-boot-08-rag</module><!--rag 示例-->
+        <module>langchain4j-spring-boot-08-rag-AIBot</module><!--rag 智能客服实战 -->
+        <module>langchain4j-spring-boot-09-lostFoundAssistant</module> <!--失物招领助手实战,接入RAG -->
+        <module>langchain4j-spring-boot-10-mcp</module><!-- mcp实践-->
+
+    </modules>
+
+</project>

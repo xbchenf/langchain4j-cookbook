@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="langchain4j-spring-boot-02-multi-model-examples" />
+        <module name="langchain4j-03-embedding-store-milvus" />
+        <module name="langchain4j-spring-boot-04-inMysqlStore" />
+        <module name="langchain4j-01-basic-examples" />
+        <module name="langchain4j-spring-boot-08-rag" />
+        <module name="langchain4j-spring-boot-09-lostFoundAssistant" />
+        <module name="langchain4j-04-mcp-examples" />
+        <module name="langchain4j-spring-boot-03-listener" />
+        <module name="langchain4j-03-embedding-store-chroma" />
+        <module name="langchain4j-spring-boot-07-lostFoundAssistant" />
+        <module name="langchain4j-03-embedding-store-qdrant" />
+        <module name="langchain4j-spring-boot-03-memoryEachUser" />
+        <module name="langchain4j-06-agentic-examples" />
+        <module name="langchain4j-spring-boot-02-aiService" />
+        <module name="langchain4j-spring-boot-03-memory" />
+        <module name="langchain4j-spring-boot-03-streaming" />
+        <module name="langchain4j-spring-boot-05-structured-output" />
+        <module name="langchain4j-spring-boot-05-prompt" />
+        <module name="langchain4j-spring-boot-01-openai-helloWorld" />
+        <module name="langchain4j-03-embedding-store-memory" />
+        <module name="langchain4j-05-rag-examples" />
+        <module name="langchain4j-spring-boot-06-tools" />
+        <module name="langchain4j-02-ai-service-examples" />
+        <module name="langchain4j-07-ollama-examples" />
+        <module name="langchain4j-spring-boot-02-deepSeek-examples" />
+        <module name="langchain4j-spring-boot-10-mcp" />
+        <module name="langchain4j-spring-boot-08-rag-AIBot" />
+        <module name="langchain4j-spring-boot-02-dashscope-examples" />
+        <module name="langchain4j-spring-boot-04-inMemoryStore" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="langchain4j-09-zhipu-examples" target="17" />
+      <module name="langchain4j-openai" target="17" />
+      <module name="spring-boot4-example" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="langchain4j-02-ai-service-examples" options="" />
+      <module name="langchain4j-09-zhipu-examples" options="-parameters" />
+      <module name="langchain4j-spring-boot-01-openai-helloWorld" options="-parameters" />
+      <module name="langchain4j-spring-boot-02-aiService" options="-parameters" />
+      <module name="langchain4j-spring-boot-02-dashscope-examples" options="-parameters" />
+      <module name="langchain4j-spring-boot-02-deepSeek-examples" options="-parameters" />
+      <module name="langchain4j-spring-boot-02-multi-model-examples" options="-parameters" />
+      <module name="langchain4j-spring-boot-03-listener" options="-parameters" />
+      <module name="langchain4j-spring-boot-03-memory" options="-parameters" />
+      <module name="langchain4j-spring-boot-03-memoryEachUser" options="-parameters" />
+      <module name="langchain4j-spring-boot-03-streaming" options="-parameters" />
+      <module name="langchain4j-spring-boot-04-inMemoryStore" options="-parameters" />
+      <module name="langchain4j-spring-boot-04-inMysqlStore" options="-parameters" />
+      <module name="langchain4j-spring-boot-05-prompt" options="-parameters" />
+      <module name="langchain4j-spring-boot-05-structured-output" options="-parameters" />
+      <module name="langchain4j-spring-boot-06-tools" options="-parameters" />
+      <module name="langchain4j-spring-boot-07-lostFoundAssistant" options="-parameters" />
+      <module name="langchain4j-spring-boot-08-rag" options="-parameters" />
+      <module name="langchain4j-spring-boot-08-rag-AIBot" options="-parameters" />
+      <module name="langchain4j-spring-boot-09-lostFoundAssistant" options="-parameters" />
+      <module name="langchain4j-spring-boot-10-mcp" options="-parameters" />
+      <module name="spring-boot4-example" options="-parameters" />
+    </option>
+  </component>
+</project>

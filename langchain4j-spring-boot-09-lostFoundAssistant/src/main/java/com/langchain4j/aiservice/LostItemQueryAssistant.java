@@ -1,0 +1,29 @@
+package com.langchain4j.aiservice;
+
+import com.langchain4j.aioutput.LostItemQueryOutput;
+import dev.langchain4j.service.SystemMessage;
+import dev.langchain4j.service.UserMessage;
+import dev.langchain4j.service.V;
+import dev.langchain4j.service.spring.AiService;
+
+import static dev.langchain4j.service.spring.AiServiceWiringMode.EXPLICIT;
+
+/**
+ * 失物查询AI助手服务接口
+ *
+ * LangChain4j 会通过 @AiService 注解自动生成实现类，
+ * 无需手动编写调用 AI 模型的代码。
+ */
+
+@AiService(wiringMode = EXPLICIT,
+        chatModel = "openAiChatModel",
+        /*chatMemoryProvider = "chatMemoryProvider",*/
+        tools = {"chatHistoryTools","lostRegisterTools","lostItemQueryTools"}
+)
+@SystemMessage(fromResource = "lostItemQuery.txt")
+public interface LostItemQueryAssistant {
+
+    @UserMessage("当前sessionId:{{sessionId}};用户当前消息：{{userMessage}}")
+   LostItemQueryOutput queryLostItem(@V("sessionId") String sessionId, @V("userMessage") String userMessage);
+
+}
