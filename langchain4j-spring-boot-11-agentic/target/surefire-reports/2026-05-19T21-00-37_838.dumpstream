@@ -1,0 +1,5 @@
+# Created at 2026-05-19T21:00:42.980
+Boot Manifest-JAR contains absolute paths in classpath 'D:\github\langchain4j-cookbook\langchain4j-spring-boot-11-agentic\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+

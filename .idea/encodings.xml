@@ -19,6 +19,8 @@
     <file url="file://$PROJECT_DIR$/langchain4j-05-rag-examples/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/langchain4j-06-agentic-examples/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/langchain4j-06-agentic-examples/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/langchain4j-06-ollama-examples/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/langchain4j-06-ollama-examples/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/langchain4j-07-ollama-examples/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/langchain4j-07-ollama-examples/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/langchain4j-09-zhipu-examples/src/main/java" charset="UTF-8" />
@@ -42,5 +44,8 @@
     <file url="file://$PROJECT_DIR$/langchain4j-spring-boot-08-rag/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/langchain4j-spring-boot-09-lostFoundAssistant/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/langchain4j-spring-boot-10-mcp/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/langchain4j-spring-boot-11-agentic/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/langchain4j-spring-boot-12-agentic-a2aService-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/langchain4j-spring-boot-12-agentic/src/main/java" charset="UTF-8" />
   </component>
 </project>

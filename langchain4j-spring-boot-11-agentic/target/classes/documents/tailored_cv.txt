@@ -1,0 +1,11 @@
+张伟 - 后端工程师
+中国北京 | zhangwei.dev@gmail.com | +86 138 0013 8000 | LinkedIn | GitHub
+个人简介
+后端工程师（Java、Spring Boot、PostgreSQL），拥有 4 年以上可扩展系统、API 现代化和自动化经验。流利的中文，英语 CET-6。
+工作经历
+明支付系统公司（2021-至今）：构建后端服务；定价工具（报价时间减少 35%）；SOAP 到 REST 迁移；指导实习生。
+代码浪潮解决方案公司（2019-2021）：后端开发；CI/CD（GitHub Actions）；Docker、Kafka（概念验证）；小型 React 管理界面；副项目（Spring+Vue 预算应用、IoT 自动化）。
+教育背景
+Java 训练营，BeCode（2019-2020）；计算机科学与技术学士，北京大学（2018）
+技能
+Java、Spring Boot、PostgreSQL、Docker、Kafka（基础）、CI/CD、REST 设计、整洁代码、指导；中文（母语）、英语（CET-6）。
