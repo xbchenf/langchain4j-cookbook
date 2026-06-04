@@ -12,11 +12,11 @@
         <module name="langchain4j-spring-boot-04-inMysqlStore" />
         <module name="langchain4j-01-basic-examples" />
         <module name="langchain4j-spring-boot-08-rag" />
-        <module name="langchain4j-spring-boot-09-lostFoundAssistant" />
         <module name="langchain4j-04-mcp-examples" />
         <module name="langchain4j-spring-boot-03-listener" />
         <module name="langchain4j-03-embedding-store-chroma" />
         <module name="langchain4j-spring-boot-07-lostFoundAssistant" />
+        <module name="langchain4j-spring-boot-13-lostFoundAssistant-v3-agentic" />
         <module name="langchain4j-03-embedding-store-qdrant" />
         <module name="langchain4j-spring-boot-03-memoryEachUser" />
         <module name="langchain4j-spring-boot-02-aiService" />
@@ -28,7 +28,7 @@
         <module name="langchain4j-03-embedding-store-memory" />
         <module name="langchain4j-05-rag-examples" />
         <module name="langchain4j-spring-boot-12-agentic" />
-        <module name="langchain4j-spring-boot-12-agentic-a2aService-provider" />
+        <module name="langchain4j-spring-boot-09-lostFoundAssistant-v2-rag" />
         <module name="langchain4j-spring-boot-06-tools" />
         <module name="langchain4j-02-ai-service-examples" />
         <module name="langchain4j-spring-boot-02-deepSeek-examples" />
@@ -36,8 +36,13 @@
         <module name="langchain4j-spring-boot-08-rag-AIBot" />
         <module name="langchain4j-06-ollama-examples" />
         <module name="langchain4j-spring-boot-02-dashscope-examples" />
-        <module name="langchain4j-spring-boot-04-inMemoryStore" />
         <module name="langchain4j-spring-boot-11-agentic" />
+      </profile>
+      <profile name="Annotation profile for langchain4j-examples" enabled="true">
+        <sourceOutputDir name="../langchain4j-spring-boot-04-inMysqlStore/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../langchain4j-spring-boot-04-inMysqlStore/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="langchain4j-spring-boot-04-inMemoryStore" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -45,6 +50,7 @@
       <module name="langchain4j-07-ollama-examples" target="17" />
       <module name="langchain4j-09-zhipu-examples" target="17" />
       <module name="langchain4j-openai" target="17" />
+      <module name="langchain4j-spring-boot-12-agentic-a2aService-provider" target="17" />
       <module name="spring-boot4-example" target="17" />
     </bytecodeTargetLevel>
   </component>
@@ -69,11 +75,12 @@
       <module name="langchain4j-spring-boot-07-lostFoundAssistant" options="-parameters" />
       <module name="langchain4j-spring-boot-08-rag" options="-parameters" />
       <module name="langchain4j-spring-boot-08-rag-AIBot" options="-parameters" />
-      <module name="langchain4j-spring-boot-09-lostFoundAssistant" options="-parameters" />
+      <module name="langchain4j-spring-boot-09-lostFoundAssistant-v2-rag" options="-parameters" />
       <module name="langchain4j-spring-boot-10-mcp" options="-parameters" />
       <module name="langchain4j-spring-boot-11-agentic" options="-parameters" />
       <module name="langchain4j-spring-boot-12-agentic" options="-parameters" />
       <module name="langchain4j-spring-boot-12-agentic-a2aService-provider" options="-parameters" />
+      <module name="langchain4j-spring-boot-13-lostFoundAssistant-v3-agentic" options="-parameters" />
       <module name="spring-boot4-example" options="-parameters" />
     </option>
   </component>

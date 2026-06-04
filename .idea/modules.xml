@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/langchain4j-spring-boot-12-a2aService-provider/langchain4j-spring-boot-12-agentic-a2aService-provider.iml" filepath="$PROJECT_DIR$/langchain4j-spring-boot-12-a2aService-provider/langchain4j-spring-boot-12-agentic-a2aService-provider.iml" />
+    </modules>
+  </component>
+</project>

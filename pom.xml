@@ -40,7 +40,7 @@
         <module>langchain4j-spring-boot-07-lostFoundAssistant</module> <!--失物招领助手实战 -->
         <module>langchain4j-spring-boot-08-rag</module><!--rag 示例-->
         <module>langchain4j-spring-boot-08-rag-AIBot</module><!--rag 智能客服实战 -->
-        <module>langchain4j-spring-boot-09-lostFoundAssistant</module> <!--失物招领助手实战,接入RAG -->
+        <module>langchain4j-spring-boot-09-lostFoundAssistant-v2-rag</module> <!--失物招领助手实战,接入RAG -->
         <module>langchain4j-spring-boot-10-mcp</module><!-- mcp实践-->
         <module>langchain4j-spring-boot-11-agentic</module><!-- agentic实践-->
         <module>langchain4j-spring-boot-12-agentic</module><!-- agentic实践-->
