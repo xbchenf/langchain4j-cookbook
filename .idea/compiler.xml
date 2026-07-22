@@ -16,7 +16,6 @@
         <module name="langchain4j-spring-boot-03-listener" />
         <module name="langchain4j-03-embedding-store-chroma" />
         <module name="langchain4j-spring-boot-07-lostFoundAssistant" />
-        <module name="langchain4j-spring-boot-13-lostFoundAssistant-v3-agentic" />
         <module name="langchain4j-03-embedding-store-qdrant" />
         <module name="langchain4j-spring-boot-03-memoryEachUser" />
         <module name="langchain4j-spring-boot-02-aiService" />
@@ -51,6 +50,7 @@
       <module name="langchain4j-09-zhipu-examples" target="17" />
       <module name="langchain4j-openai" target="17" />
       <module name="langchain4j-spring-boot-12-agentic-a2aService-provider" target="17" />
+      <module name="langchain4j-spring-boot-13-lostFoundAssistant-v3-agentic" target="17" />
       <module name="spring-boot4-example" target="17" />
     </bytecodeTargetLevel>
   </component>

@@ -67,7 +67,7 @@ public class AgenticConfig {
     CodeFixer codeFixer() {
         return AgenticServices.agentBuilder(CodeFixer.class)
                 .chatModel(openAiChatModel)
-                .outputKey("fixResult")
+                .outputKey("fixedCode")
                 .build();
     }
 
