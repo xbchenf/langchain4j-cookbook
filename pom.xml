@@ -44,6 +44,8 @@
         <module>langchain4j-spring-boot-10-mcp</module><!-- mcp实践-->
         <module>langchain4j-spring-boot-11-agentic</module><!-- agentic实践-->
         <module>langchain4j-spring-boot-12-agentic</module><!-- agentic实践-->
+        <module>langchain4j-spring-boot-13-agentic-customerService</module><!-- Agentic智能客服实战 -->
+        <module>langchain4j-spring-boot-14-code-review-agentic</module><!-- Agentic代码审查实战 -->
 
     </modules>
 
