@@ -17,7 +17,7 @@
 
 ## 项目结构
 
-本项目包含 **32 个子模块**，分为两大类：**独立 Java 示例**（纯 main 方法，无 Spring 依赖）和 **Spring Boot 示例**（基于 langchain4j-spring-boot-starter 构建的完整 Web 应用）。
+本项目包含 **34 个子模块**，分为两大类：**独立 Java 示例**（纯 main 方法，无 Spring 依赖）和 **Spring Boot 示例**（基于 langchain4j-spring-boot-starter 构建的完整 Web 应用）。
 
 ---
 
@@ -308,6 +308,43 @@ Spring Boot 环境下集成 MCP（Model Context Protocol）。演示如何通过
 | 会话管理 | 基于 ConcurrentHashMap 的任务状态追踪（演示用途） |
 
 该模块与 `langchain4j-spring-boot-12-agentic` 中的 `_09_A2A` 配合使用：12-agentic 作为 A2A 客户端发起请求，a2aService-provider 作为服务端响应。
+
+---
+
+#### langchain4j-spring-boot-13-agentic-customerService — Agentic 智能客服实战
+
+**第二个生产级实战项目。** 展示 Agentic AI 的 Tool 编排范式（1 个 @AiService + 多组 @Tool）：
+
+| 层级 | 技术 |
+|------|------|
+| Agent 框架 | LangChain4j @AiService + @Tool（EXPLICIT 注入模式） |
+| 工具分组 | TransactionTools（操作型：订单/退货/物流）+ KnowledgeTools（知识型：RAG 政策问答） |
+| 路由方式 | LLM 自主决策——零 Java 路由代码，模型自己选择调用哪个工具 |
+| RAG | InMemoryEmbeddingStore + text-embedding-v4 + recursive 分割 |
+| 记忆 | ChatMemoryProvider + @MemoryId 多用户隔离 + MessageWindowChatMemory(20) |
+| 流式 | Flux\<String\> + SSE 真流式逐 Token 输出 |
+| 前端 | Thymeleaf + EventSource API 消费 SSE |
+| 数据库 | H2 内存库（开发）/ MySQL（生产） |
+
+运行后访问 `http://localhost:8082` → 输入 userId → 开始对话。系统自动处理退换货咨询、物流查询、政策问答。
+
+---
+
+#### langchain4j-spring-boot-14-code-review-agentic — Agentic 代码审查与优化系统
+
+**第三个生产级实战项目。** 展示 Agentic AI 的工作流编排范式（多 Agent + Builder API 显式编排），采用 **静态检查 ∥ 动态检查** 动静结合架构：
+
+| 工作流 | Agent | 模式 |
+|--------|------|------|
+| 📏 静态检查 | StaticAnalyzer（非AI） | 纯 Java 正则：圈复杂度/方法行数/命名规范 |
+| 🤖 动态检查 | CodeParser → IssueIdentifier | Sequential：代码解析 → 问题初筛 |
+| 🤖 动态检查 | Security + Performance + Maintainability Reviewer | Parallel：三维并行深度审查 |
+| 🚦 风险路由 | 条件判断 + HITL | Conditional：高风险人工审批 / 低风险自动修复 |
+| 🔨 循环修复 | CodeFixer ⇄ ReReviewer | Loop：修复→重审，maxIterations=3 |
+
+运行集成测试：`mvn test -Dtest=CodeReviewWorkflowTest#testFullReviewWorkflow`
+
+该模块与 13 形成 Agentic 范式的完整对比——Tool 编排型 vs 工作流编排型。
 
 ---
 
