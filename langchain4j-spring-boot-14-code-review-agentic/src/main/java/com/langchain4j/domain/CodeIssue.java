@@ -7,9 +7,9 @@ import lombok.Data;
 @Builder
 public class CodeIssue {
     /** 问题类型: SECURITY / PERFORMANCE / MAINTAINABILITY / STYLE */
-    String type;
+    CodeIssueType type;
     /** 严重程度: HIGH / MEDIUM / LOW */
-    String severity;
+    Severity severity;
     /** 问题所在行号 */
     Integer lineNumber;
     /** 问题所在文件 */
